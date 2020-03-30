@@ -249,7 +249,7 @@ int main()
         //model = glm::rotate(model, 40.0f * (GLfloat)glfwGetTime(), glm::vec3(0.5f, 1.0f, 1.0f));
         //view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
 
-        GLfloat radius = 10.0f;
+        GLfloat radius = 20.0f;
         GLfloat camX = sin(glfwGetTime()) * radius;
         GLfloat camZ = cos(glfwGetTime()) * radius;
         view = glm::lookAt(glm::vec3(camX, 0.0f, camZ), glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f));
